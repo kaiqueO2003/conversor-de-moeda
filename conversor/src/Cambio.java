@@ -10,15 +10,15 @@ public class Cambio {
     }
 
     public Moeda getDe() {
-        return de;  // Retorna o atributo de, não chama recursivamente getDe()
+        return de;  
     }
 
     public Moeda getPara() {
-        return para;  // Retorna o atributo para, não chama recursivamente getPara()
+        return para;  
     }
 
     public double getTaxa() {
-        return taxa;  // Retorna o atributo taxa, não chama recursivamente getTaxa()
+        return taxa;  
     }
 }
 

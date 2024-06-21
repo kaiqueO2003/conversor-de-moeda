@@ -56,7 +56,7 @@ public class Menu {
                 }
             } else {
                 System.out.println("Entrada inválida. Digite um número.");
-                scanner.next(); // limpa a entrada inválida
+                scanner.next(); 
             }
         }
         return index;

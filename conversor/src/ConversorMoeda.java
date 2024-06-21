@@ -11,7 +11,7 @@ public class ConversorMoeda {
             return quantia * cambio.getTaxa();
         } else {
             System.out.println("Não foi possível obter a taxa de câmbio.");
-            return 0.0; // Ou outra ação adequada para lidar com o erro
+            return 0.0; 
         }
     }
 }
